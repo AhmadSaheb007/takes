@@ -1,4 +1,4 @@
 # takes
 This is a full responsive website frontend of travel
-<br>
-MAde by Abeer
+## website: https://takes-ahmad-abeer.netlify.app/
+Made by Abeer
