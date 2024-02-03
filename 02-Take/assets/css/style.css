@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+*{
+
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.bg-blur{
+    background-color: rgba(0, 0, 0, 0.4);
+    filter: blur(0.7);
+    backdrop-filter: blur(50x);
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+
+}
+.pddin{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+.bg{
+
+    height: 60rem;
+    background-image: url(../img/02-TakeHeaderBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+
+.bg2{
+
+    height: 40rem;
+    background-image: url(../img/02-TakeCar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+
+.bg2-text{
+    position: absolute;
+    top: 50%;
+
+
+}
+.header-text-padding{
+    padding-top: 18rem;
+}
+
+.iphone-aligner{
+    width: 30% !important;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+
+}
+
+.peast-green{
+    background-color: #81C99B;
+}
+
+.light-brown{
+    color: #C5C5C5;
+}
+
+.card{
+    transition: 0.5s;
+}
+.card-hover:hover{
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 25px rgb(190, 187, 187);
+}
+
+footer{
+    background-color: #192331;
+}
+.ftr a{
+    text-decoration: none;
+    color: white;
+}
